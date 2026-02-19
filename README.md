@@ -1,35 +1,33 @@
-📌 Análise de Técnicas MITRE ATT&CK com NotebookLM
-📖 Sobre o Projeto
+📚 Estudo de Técnicas MITRE ATT&CK com apoio do NotebookLM
+📖 Sobre este repositório
 
-Este projeto demonstra a utilização do NotebookLM como ferramenta de apoio analítico para estudo e aplicação prática de técnicas do framework MITRE ATT&CK em um contexto de Segurança Ofensiva e Defesa (Blue Team).
+Este repositório foi desenvolvido como parte do meu processo de aprendizado em Cibersegurança, utilizando o NotebookLM como ferramenta de apoio para estudar técnicas do framework MITRE ATT&CK.
 
-A proposta foi transformar análises geradas pela ferramenta em:
+A proposta foi utilizar a ferramenta para:
 
-Relatórios técnicos estruturados
+Organizar informações técnicas
 
-Mapas mentais
+Estruturar melhor o conteúdo estudado
 
-Tabelas organizadas no padrão MITRE
+Transformar teoria em algo mais prático
 
-Sugestões de detecção para ambiente SOC
-
-Material visual de apoio
+Relacionar técnicas com possíveis cenários de detecção
 
 🎯 Objetivo
 
-Demonstrar como o NotebookLM pode ser utilizado para:
+O principal objetivo deste projeto é:
 
-Analisar técnicas do MITRE ATT&CK
+Aprender como funcionam algumas técnicas do MITRE ATT&CK
 
-Organizar conhecimento técnico
+Desenvolver raciocínio voltado para análise em ambiente SOC
 
-Estruturar relatórios de segurança
+Praticar a escrita de relatórios técnicos
 
-Apoiar a criação de detecções
+Entender como correlacionar técnica, logs e possíveis detecções
 
-Gerar material visual (mapas mentais e infográficos)
+Este repositório representa meu processo de estudo e consolidação de conhecimento.
 
-🛠 Técnicas Analisadas
+🛠 Técnicas estudadas
 
 T1003 – Credential Dumping
 
@@ -37,33 +35,27 @@ T1059 – Command and Scripting Interpreter
 
 T1047 – Windows Management Instrumentation (WMI)
 
-Cada técnica foi estudada com base em fontes oficiais inseridas no NotebookLM.
+Cada técnica foi analisada com base em fontes oficiais inseridas no NotebookLM, que auxiliou na organização das informações.
 
-🧠 Metodologia
+🧠 Como o estudo foi realizado
 
-A construção do projeto seguiu as seguintes etapas:
+Durante o desenvolvimento deste projeto, segui as seguintes etapas:
 
-Inserção de fontes oficiais do MITRE ATT&CK no NotebookLM
+Inserção das fontes oficiais do MITRE ATT&CK no NotebookLM
 
-Geração de análises detalhadas sobre cada técnica
+Solicitação de explicações detalhadas sobre cada técnica
 
-Estruturação das informações em formato técnico
+Organização das informações em formato de relatório
 
-Criação de mapas mentais organizando os conceitos
+Identificação de possíveis eventos de log relevantes
 
-Extração de possíveis eventos de log relevantes
+Estruturação de ideias voltadas para detecção em ambiente SOC
 
-Conversão das análises em sugestões de detecção para SOC
+Geração de mapas mentais para consolidar o entendimento
 
-O NotebookLM foi utilizado como ferramenta central para:
+O NotebookLM foi utilizado como ferramenta de apoio para estruturar o conhecimento, não como substituto do estudo.
 
-Organização do conhecimento
-
-Consolidação de informações técnicas
-
-Estruturação lógica dos relatórios
-
-📂 Estrutura do Projeto
+📂 Estrutura do Repositório
 mitre-attack/
 │
 ├── deteccoes/
@@ -71,28 +63,14 @@ mitre-attack/
 ├── imagens/
 └── README.md
 
-relatorios/ → Relatórios técnicos estruturados a partir da análise
+relatorios/ → Resumos e análises das técnicas estudadas
 
-deteccoes/ → Sugestões de detecção correlacionadas às técnicas
+deteccoes/ → Exercícios práticos de correlação e possíveis estratégias de detecção
 
-imagens/ → Mapas mentais e materiais visuais gerados
+imagens/ → Mapas mentais e materiais visuais utilizados no estudo
 
-📊 Aplicação Prática
+📌 Considerações Finais
 
-O projeto demonstra a transição de:
+Este repositório faz parte do meu processo de aprendizado em Cibersegurança e demonstra minha evolução no entendimento do framework MITRE ATT&CK e na construção de pensamento analítico voltado para segurança defensiva.
 
-Análise teórica → Estruturação técnica → Aplicação prática em contexto SOC
-
-Incluindo:
-
-Correlação entre técnica e possíveis logs
-
-Identificação de indicadores de comprometimento
-
-Estruturação de conhecimento voltado para atuação em Blue Team
-
-🚀 Conclusão
-
-Este projeto evidencia como o NotebookLM pode ser utilizado como ferramenta de apoio em estudos de cibersegurança, auxiliando na organização, análise e aplicação prática de técnicas do MITRE ATT&CK.
-
-O foco principal foi transformar análise em aplicação prática e estruturada.
+O foco principal foi aprender, organizar e aplicar o conhecimento adquirido.
